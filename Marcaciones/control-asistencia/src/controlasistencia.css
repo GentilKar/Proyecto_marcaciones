@@ -1,0 +1,91 @@
+/* controlasistencia.css */ 
+/* Estilos para el contenedor principal */
+.control-asistencia {
+    padding: 20px;
+}
+
+/* Estilos para el título "Marcaciones" */ 
+.marcaciones h2 {
+    margin-bottom: 10px;
+}
+
+/* Estilos personalizados para la tabla */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.custom-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+
+/* Estilos para el campo de entrada de legajo */
+#legajoInput {
+    max-width: 120px;
+    width: 200px;
+    margin-right: 0px; /* Agrega un margen derecho para separar el campo */
+}
+
+/* Estilos para los grupos de formulario */
+.form-group label {
+    margin-right: 10px; /* Agrega un margen derecho para separar las etiquetas */
+}
+
+.form-group input {
+    margin-right: 10px; /* Agrega un margen derecho para separar los campos de entrada */
+}
+
+.short-cell {
+    width: 30px;
+}
+
+.medium-cell {
+    width: 70px;
+}
+
+.long-cell {
+    width: 50px;
+}
+
+.transparent-modal .modal-content {
+    background-color: transparent !important; /* Hace que el fondo del modal sea transparente */
+    border: none; /* Elimina el borde del modal */
+}
+
+.transparent-modal .spinner-border {
+    width: 5rem; /* Aumenta el tamaño del spinner */
+    height: 5rem; /* Aumenta el tamaño del spinner */
+}
+
+.footer {
+    /* position: absolute;  */
+    bottom: 0;
+    width: 100%;
+    padding: 0px 0; /* Ajusta el padding según necesites */
+}
+
+.table-container {
+    margin-bottom: 100px; /* Ajusta el margen inferior según el tamaño del footer */
+}
+#fechaInicioInput,
+#fechaFinInput,
+#legajoInput {
+    width: 100%; /* Cambia los anchos fijos a porcentajes */
+    max-width: 160px; /* Agrega un ancho máximo para evitar que los campos se extiendan demasiado en pantallas grandes */
+    margin-right: 2px;
+}
+
+.custom-table th, .custom-table td {
+    padding: 8px; /* Reduce el padding para que la tabla sea más compacta */
+    white-space: nowrap; /* Evita que el texto se desborde y se rompa en varias líneas */
+    overflow: hidden; /* Oculta el desbordamiento horizontal de las celdas */
+    text-overflow: ellipsis; /* Agrega puntos suspensivos cuando el contenido desborda el ancho de la celda */
+}
